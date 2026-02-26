@@ -18,3 +18,6 @@ SELECT TOP 3 * FROM Employees;
 
 -- Example 7 – Select with LIMIT (MySQL/PostgreSQL)
 SELECT * FROM Employees LIMIT 2;
+
+-- Example 8 – Using DISTINCT with multiple columns
+SELECT DISTINCT Department, Salary FROM Employees;

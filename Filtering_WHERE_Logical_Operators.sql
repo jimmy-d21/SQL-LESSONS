@@ -18,3 +18,6 @@ SELECT * FROM Employees WHERE Department IN ('HR', 'Finance');
 
 -- Example 17 – WHERE with BETWEEN
 SELECT * FROM Employees WHERE Salary BETWEEN 5000 AND 7000;
+
+-- Example 8 – WHERE with LIKE
+SELECT * FROM Employees WHERE FirstName LIKE 'J%';

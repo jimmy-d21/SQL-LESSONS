@@ -15,3 +15,6 @@ SELECT * FROM Employees WHERE NOT Department = 'HR';
 
 -- Example 6 – WHERE with IN
 SELECT * FROM Employees WHERE Department IN ('HR', 'Finance');
+
+-- Example 17 – WHERE with BETWEEN
+SELECT * FROM Employees WHERE Salary BETWEEN 5000 AND 7000;

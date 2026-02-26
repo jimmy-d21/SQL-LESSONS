@@ -9,3 +9,6 @@ SELECT * FROM Employees WHERE Department = 'IT' AND Salary > 6000;
 
 -- Example 4 – WHERE with OR
 SELECT * FROM Employees WHERE Department = 'Finance' OR Salary < 6000;
+
+-- Example 5 – WHERE with NOT
+SELECT * FROM Employees WHERE NOT Department = 'HR';

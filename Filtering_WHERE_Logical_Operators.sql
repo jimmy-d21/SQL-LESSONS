@@ -24,3 +24,6 @@ SELECT * FROM Employees WHERE FirstName LIKE 'J%';
 
 -- Example 9 – WHERE with wildcard in LIKE
 SELECT * FROM Employees WHERE LastName LIKE '%n%';
+
+-- Example 10 – WHERE with multiple conditions
+SELECT * FROM Employees WHERE (Department = 'IT' OR Department = 'Finance') AND Salary > 6500;

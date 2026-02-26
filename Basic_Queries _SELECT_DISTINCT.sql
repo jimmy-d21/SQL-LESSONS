@@ -12,3 +12,6 @@ SELECT FirstName || ' ' || LastName AS FullName FROM Employees;
 
 -- Example 5 – Select with alias
 SELECT EmployeeID AS ID, Salary AS MonthlySalary FROM Employees;
+
+-- Example 6 – Select top N rows (SQL Server)
+SELECT TOP 3 * FROM Employees;

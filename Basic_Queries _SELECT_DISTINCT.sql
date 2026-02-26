@@ -15,3 +15,6 @@ SELECT EmployeeID AS ID, Salary AS MonthlySalary FROM Employees;
 
 -- Example 6 – Select top N rows (SQL Server)
 SELECT TOP 3 * FROM Employees;
+
+-- Example 7 – Select with LIMIT (MySQL/PostgreSQL)
+SELECT * FROM Employees LIMIT 2;

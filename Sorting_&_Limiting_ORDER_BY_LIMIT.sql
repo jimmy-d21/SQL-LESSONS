@@ -18,3 +18,11 @@ SELECT * FROM Employees ORDER BY Salary DESC LIMIT 2 OFFSET 1;
 
 -- Example 7 – ORDER BY string column
 SELECT * FROM Employees ORDER BY LastName ASC;
+
+-- Example 8 – ORDER BY with CASE
+SELECT FirstName, Department, Salary,
+CASE WHEN Salary > 7000 THEN 'High'
+     WHEN Salary >= 6000 THEN 'Medium'
+     ELSE 'Low' END AS SalaryLevel
+FROM Employees
+ORDER BY SalaryLevel DESC;

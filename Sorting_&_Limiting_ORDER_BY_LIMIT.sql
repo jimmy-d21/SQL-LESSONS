@@ -29,3 +29,6 @@ ORDER BY SalaryLevel DESC;
 
 -- Example 9 – SELECT DISTINCT with ORDER BY
 SELECT DISTINCT Department FROM Employees ORDER BY Department ASC;
+
+-- Example 10 – ORDER BY numeric calculation
+SELECT FirstName, Salary, Salary*1.1 AS NewSalary FROM Employees ORDER BY NewSalary DESC;

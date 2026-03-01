@@ -25,3 +25,9 @@ SELECT Department, AVG(Salary) AS AvgDeptSalary FROM Employees GROUP BY Departme
 
 -- Example 9 – COUNT distinct salaries
 SELECT COUNT(DISTINCT Salary) AS UniqueSalaries FROM Employees;
+
+-- Example 10 – Aggregation with HAVING
+SELECT Department, AVG(Salary) AS AvgDeptSalary
+FROM Employees
+GROUP BY Department
+HAVING AVG(Salary) > 6000;

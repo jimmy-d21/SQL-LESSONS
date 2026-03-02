@@ -9,3 +9,8 @@ SELECT Department, AVG(Salary) AS AvgSalary
 FROM Employees
 GROUP BY Department
 HAVING AVG(Salary) >= 6000;
+
+-- Example 4 – GROUP BY with MAX
+SELECT Department, MAX(Salary) AS MaxSalary
+FROM Employees
+GROUP BY Department;

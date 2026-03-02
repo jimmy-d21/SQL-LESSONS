@@ -101,3 +101,10 @@ SELECT UPPER(FirstName) AS UpperName FROM Employees;
 
 -- Example 10 – Select using arithmetic operation
 SELECT FirstName, Salary, Salary * 12 AS AnnualSalary FROM Employees;
+| FirstName | Salary | AnnualSalary |
+| --------- | ------ | ------------ |
+| John      | 5000   | 60000        |
+| Jane      | 6000   | 72000        |
+| Alice     | 7000   | 84000        |
+| Bob       | 5000   | 60000        |
+| Eve       | 8000   | 96000        |

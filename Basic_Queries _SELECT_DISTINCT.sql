@@ -80,6 +80,13 @@ SELECT * FROM Employees LIMIT 2;
 
 -- Example 8 – Using DISTINCT with multiple columns
 SELECT DISTINCT Department, Salary FROM Employees;
+| Department | Salary |
+| ---------- | ------ |
+| HR         | 5000   |
+| IT         | 6000   |
+| IT         | 7000   |
+| Finance    | 8000   |
+
 
 -- Example 9 – Select with string functions
 SELECT UPPER(FirstName) AS UpperName FROM Employees;

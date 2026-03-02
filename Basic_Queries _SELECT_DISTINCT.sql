@@ -41,6 +41,14 @@ SELECT DISTINCT Department FROM Employees;
 
 -- Example 4 – Concatenate first and last names
 SELECT FirstName || ' ' || LastName AS FullName FROM Employees;
+| FullName    |
+| ----------- |
+| John Doe    |
+| Jane Smith  |
+| Alice Brown |
+| Bob Johnson |
+| Eve Davis   |
+
 
 -- Example 5 – Select with alias
 SELECT EmployeeID AS ID, Salary AS MonthlySalary FROM Employees;

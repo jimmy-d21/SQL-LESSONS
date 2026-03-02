@@ -29,3 +29,9 @@ GROUP BY Department, Salary;
 SELECT UPPER(Department) AS DeptUpper, COUNT(*) AS NumEmployees
 FROM Employees
 GROUP BY UPPER(Department);
+
+-- Example 8 – GROUP BY with HAVING and COUNT
+SELECT Department, COUNT(*) AS NumEmployees
+FROM Employees
+GROUP BY Department
+HAVING COUNT(*) > 1;

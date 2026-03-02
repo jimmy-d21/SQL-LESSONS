@@ -10,6 +10,14 @@ Sample Table: Employees
 
 -- Example 1 – Select all columns
 SELECT * FROM Employees;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 1          | John      | Doe      | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 4          | Bob       | Johnson  | HR         | 5000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+
 
 -- Example 2 – Select specific columns
 SELECT FirstName, LastName, Salary FROM Employees;

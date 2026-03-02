@@ -90,6 +90,14 @@ SELECT DISTINCT Department, Salary FROM Employees;
 
 -- Example 9 – Select with string functions
 SELECT UPPER(FirstName) AS UpperName FROM Employees;
+| UpperName |
+| --------- |
+| JOHN      |
+| JANE      |
+| ALICE     |
+| BOB       |
+| EVE       |
+
 
 -- Example 10 – Select using arithmetic operation
 SELECT FirstName, Salary, Salary * 12 AS AnnualSalary FROM Employees;

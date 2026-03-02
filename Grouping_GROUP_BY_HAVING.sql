@@ -35,3 +35,9 @@ SELECT Department, COUNT(*) AS NumEmployees
 FROM Employees
 GROUP BY Department
 HAVING COUNT(*) > 1;
+
+-- Example 9 – GROUP BY with ORDER BY aggregate
+SELECT Department, SUM(Salary) AS TotalSalary
+FROM Employees
+GROUP BY Department
+ORDER BY TotalSalary DESC;

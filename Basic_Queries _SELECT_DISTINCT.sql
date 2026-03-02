@@ -63,6 +63,12 @@ SELECT EmployeeID AS ID, Salary AS MonthlySalary FROM Employees;
 
 -- Example 6 – Select top N rows (SQL Server)
 SELECT TOP 3 * FROM Employees;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 1          | John      | Doe      | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+
 
 -- Example 7 – Select with LIMIT (MySQL/PostgreSQL)
 SELECT * FROM Employees LIMIT 2;

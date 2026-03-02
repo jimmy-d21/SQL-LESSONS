@@ -21,6 +21,14 @@ SELECT * FROM Employees;
 
 -- Example 2 – Select specific columns
 SELECT FirstName, LastName, Salary FROM Employees;
+| FirstName | LastName | Salary |
+| --------- | -------- | ------ |
+| John      | Doe      | 5000   |
+| Jane      | Smith    | 6000   |
+| Alice     | Brown    | 7000   |
+| Bob       | Johnson  | 5000   |
+| Eve       | Davis    | 8000   |
+
 
 -- Example 3 – Select distinct departments
 SELECT DISTINCT Department FROM Employees;

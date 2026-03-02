@@ -41,3 +41,9 @@ SELECT Department, SUM(Salary) AS TotalSalary
 FROM Employees
 GROUP BY Department
 ORDER BY TotalSalary DESC;
+
+-- Example 10 – GROUP BY with alias and HAVING
+SELECT Department AS Dept, AVG(Salary) AS AvgSalary
+FROM Employees
+GROUP BY Department
+HAVING AVG(Salary) < 7000;

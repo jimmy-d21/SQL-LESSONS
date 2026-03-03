@@ -21,6 +21,14 @@ SELECT * FROM Employees ORDER BY Salary ASC;
 
 -- Example 2 – ORDER BY Salary descending
 SELECT * FROM Employees ORDER BY Salary DESC;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 1          | John      | Doe      | HR         | 5000   |
+| 4          | Bob       | Johnson  | HR         | 5000   |
+
 
 -- Example 3 – ORDER BY multiple columns
 SELECT * FROM Employees ORDER BY Department ASC, Salary DESC;

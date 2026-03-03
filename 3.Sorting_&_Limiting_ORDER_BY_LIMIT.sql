@@ -43,6 +43,14 @@ SELECT * FROM Employees ORDER BY Department ASC, Salary DESC;
 
 -- Example 4 – ORDER BY with alias
 SELECT FirstName, Salary AS MonthlySalary FROM Employees ORDER BY MonthlySalary DESC;
+| FirstName | MonthlySalary |
+| --------- | ------------- |
+| Eve       | 8000          |
+| Alice     | 7000          |
+| Jane      | 6000          |
+| John      | 5000          |
+| Bob       | 5000          |
+
 
 -- Example 5 – ORDER BY with LIMIT (Top 2 salaries)
 SELECT * FROM Employees ORDER BY Salary DESC LIMIT 2;

@@ -18,6 +18,11 @@ SELECT * FROM Employees WHERE Department = 'IT';
 
 -- Example 2 – WHERE with comparison
 SELECT * FROM Employees WHERE Salary > 6000;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+
 
 -- Example 3 – WHERE with AND
 SELECT * FROM Employees WHERE Department = 'IT' AND Salary > 6000;

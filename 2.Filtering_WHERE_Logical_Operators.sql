@@ -26,6 +26,10 @@ SELECT * FROM Employees WHERE Salary > 6000;
 
 -- Example 3 – WHERE with AND
 SELECT * FROM Employees WHERE Department = 'IT' AND Salary > 6000;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 3          | Alice     | Brown    | IT         | 7000   |
+
 
 -- Example 4 – WHERE with OR
 SELECT * FROM Employees WHERE Department = 'Finance' OR Salary < 6000;

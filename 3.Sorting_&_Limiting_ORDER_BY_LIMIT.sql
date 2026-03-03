@@ -86,6 +86,14 @@ CASE WHEN Salary > 7000 THEN 'High'
      ELSE 'Low' END AS SalaryLevel
 FROM Employees
 ORDER BY SalaryLevel DESC;
+| FirstName | Department | Salary | SalaryLevel |
+| --------- | ---------- | ------ | ----------- |
+| Eve       | Finance    | 8000   | High        |
+| Alice     | IT         | 7000   | Medium      |
+| Jane      | IT         | 6000   | Medium      |
+| John      | HR         | 5000   | Low         |
+| Bob       | HR         | 5000   | Low         |
+
 
 -- Example 9 – SELECT DISTINCT with ORDER BY
 SELECT DISTINCT Department FROM Employees ORDER BY Department ASC;

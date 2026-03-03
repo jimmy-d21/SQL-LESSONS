@@ -70,6 +70,11 @@ SELECT * FROM Employees WHERE Salary BETWEEN 5000 AND 7000;
 
 -- Example 8 – WHERE with LIKE
 SELECT * FROM Employees WHERE FirstName LIKE 'J%';
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 1          | John      | Doe      | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+
 
 -- Example 9 – WHERE with wildcard in LIKE
 SELECT * FROM Employees WHERE LastName LIKE '%n%';

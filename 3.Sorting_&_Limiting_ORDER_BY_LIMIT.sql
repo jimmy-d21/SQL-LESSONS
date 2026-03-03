@@ -106,3 +106,10 @@ SELECT DISTINCT Department FROM Employees ORDER BY Department ASC;
 
 -- Example 10 – ORDER BY numeric calculation
 SELECT FirstName, Salary, Salary*1.1 AS NewSalary FROM Employees ORDER BY NewSalary DESC;
+| FirstName | Salary | NewSalary |
+| --------- | ------ | --------- |
+| Eve       | 8000   | 8800      |
+| Alice     | 7000   | 7700      |
+| Jane      | 6000   | 6600      |
+| John      | 5000   | 5500      |
+| Bob       | 5000   | 5500      |

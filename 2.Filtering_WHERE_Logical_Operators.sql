@@ -86,3 +86,7 @@ SELECT * FROM Employees WHERE LastName LIKE '%n%';
 
 -- Example 10 – WHERE with multiple conditions
 SELECT * FROM Employees WHERE (Department = 'IT' OR Department = 'Finance') AND Salary > 6500;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |

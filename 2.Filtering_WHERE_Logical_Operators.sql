@@ -42,6 +42,12 @@ SELECT * FROM Employees WHERE Department = 'Finance' OR Salary < 6000;
 
 -- Example 5 – WHERE with NOT
 SELECT * FROM Employees WHERE NOT Department = 'HR';
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+
 
 -- Example 6 – WHERE with IN
 SELECT * FROM Employees WHERE Department IN ('HR', 'Finance');

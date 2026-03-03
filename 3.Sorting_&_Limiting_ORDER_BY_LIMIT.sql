@@ -70,6 +70,14 @@ SELECT * FROM Employees ORDER BY Salary DESC LIMIT 2 OFFSET 1;
 
 -- Example 7 – ORDER BY string column
 SELECT * FROM Employees ORDER BY LastName ASC;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+| 1          | John      | Doe      | HR         | 5000   |
+| 4          | Bob       | Johnson  | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+
 
 -- Example 8 – ORDER BY with CASE
 SELECT FirstName, Department, Salary,

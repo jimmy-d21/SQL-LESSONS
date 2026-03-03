@@ -62,6 +62,11 @@ SELECT * FROM Employees ORDER BY Salary DESC LIMIT 2;
 
 -- Example 6 – ORDER BY with OFFSET (skip rows)
 SELECT * FROM Employees ORDER BY Salary DESC LIMIT 2 OFFSET 1;
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+
 
 -- Example 7 – ORDER BY string column
 SELECT * FROM Employees ORDER BY LastName ASC;

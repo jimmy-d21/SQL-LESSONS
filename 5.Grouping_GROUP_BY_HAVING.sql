@@ -52,6 +52,12 @@ GROUP BY Department;
 SELECT Department, MIN(Salary) AS MinSalary
 FROM Employees
 GROUP BY Department;
+| Department | MinSalary |
+| ---------- | --------- |
+| HR         | 5000      |
+| IT         | 6000      |
+| Finance    | 8000      |
+
 
 -- Example 6 – GROUP BY with multiple columns
 SELECT Department, Salary, COUNT(*) AS NumEmployees

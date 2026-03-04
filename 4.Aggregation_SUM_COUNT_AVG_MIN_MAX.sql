@@ -45,6 +45,10 @@ SELECT MIN(Salary) AS MinSalary FROM Employees;
 
 -- Example 6 – MAX salary
 SELECT MAX(Salary) AS MaxSalary FROM Employees;
+| MaxSalary |
+| --------- |
+| 8000      |
+
 
 -- Example 7 – SUM by department
 SELECT Department, SUM(Salary) AS DeptSalary FROM Employees GROUP BY Department;

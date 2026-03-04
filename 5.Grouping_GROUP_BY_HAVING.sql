@@ -98,6 +98,12 @@ SELECT Department, SUM(Salary) AS TotalSalary
 FROM Employees
 GROUP BY Department
 ORDER BY TotalSalary DESC;
+| Department | TotalSalary |
+| ---------- | ----------- |
+| IT         | 13000       |
+| Finance    | 8000        |
+| HR         | 10000       |
+
 
 -- Example 10 – GROUP BY with alias and HAVING
 SELECT Department AS Dept, AVG(Salary) AS AvgSalary

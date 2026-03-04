@@ -38,6 +38,10 @@ SELECT AVG(Salary) AS AvgSalary FROM Employees;
 
 -- Example 5 – MIN salary
 SELECT MIN(Salary) AS MinSalary FROM Employees;
+| MinSalary |
+| --------- |
+| 5000      |
+
 
 -- Example 6 – MAX salary
 SELECT MAX(Salary) AS MaxSalary FROM Employees;

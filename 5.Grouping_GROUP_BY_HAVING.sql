@@ -1,5 +1,21 @@
+Sample Table: Employees
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 1          | John      | Doe      | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 4          | Bob       | Johnson  | HR         | 5000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+
+
 -- Example 1 – GROUP BY department
 SELECT Department, COUNT(*) AS NumEmployees FROM Employees GROUP BY Department;
+| Department | NumEmployees |
+| ---------- | ------------ |
+| HR         | 2            |
+| IT         | 2            |
+| Finance    | 1            |
+
 
 -- Example 2 – GROUP BY with SUM
 SELECT Department, SUM(Salary) AS TotalSalary FROM Employees GROUP BY Department;

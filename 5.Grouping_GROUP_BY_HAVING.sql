@@ -75,6 +75,12 @@ GROUP BY Department, Salary;
 SELECT UPPER(Department) AS DeptUpper, COUNT(*) AS NumEmployees
 FROM Employees
 GROUP BY UPPER(Department);
+| DeptUpper | NumEmployees |
+| --------- | ------------ |
+| HR        | 2            |
+| IT        | 2            |
+| FINANCE   | 1            |
+
 
 -- Example 8 – GROUP BY with HAVING and COUNT
 SELECT Department, COUNT(*) AS NumEmployees

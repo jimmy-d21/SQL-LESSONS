@@ -1,5 +1,19 @@
+Sample Table: Employees
+| EmployeeID | FirstName | LastName | Department | Salary |
+| ---------- | --------- | -------- | ---------- | ------ |
+| 1          | John      | Doe      | HR         | 5000   |
+| 2          | Jane      | Smith    | IT         | 6000   |
+| 3          | Alice     | Brown    | IT         | 7000   |
+| 4          | Bob       | Johnson  | HR         | 5000   |
+| 5          | Eve       | Davis    | Finance    | 8000   |
+
+
 -- Example 1 – COUNT total employees
 SELECT COUNT(*) AS TotalEmployees FROM Employees;
+| TotalEmployees |
+| -------------- |
+| 5              |
+
 
 -- Example 2 – COUNT with condition
 SELECT COUNT(*) AS ITEmployees FROM Employees WHERE Department = 'IT';

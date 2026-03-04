@@ -41,6 +41,12 @@ HAVING AVG(Salary) >= 6000;
 SELECT Department, MAX(Salary) AS MaxSalary
 FROM Employees
 GROUP BY Department;
+| Department | MaxSalary |
+| ---------- | --------- |
+| HR         | 5000      |
+| IT         | 7000      |
+| Finance    | 8000      |
+
 
 -- Example 5 – GROUP BY with MIN
 SELECT Department, MIN(Salary) AS MinSalary

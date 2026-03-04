@@ -80,3 +80,7 @@ SELECT Department, AVG(Salary) AS AvgDeptSalary
 FROM Employees
 GROUP BY Department
 HAVING AVG(Salary) > 6000;
+| Department | AvgDeptSalary |
+| ---------- | ------------- |
+| IT         | 6500          |
+| Finance    | 8000          |

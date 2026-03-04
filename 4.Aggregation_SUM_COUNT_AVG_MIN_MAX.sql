@@ -24,6 +24,10 @@ SELECT COUNT(*) AS ITEmployees FROM Employees WHERE Department = 'IT';
 
 -- Example 3 – SUM of all salaries
 SELECT SUM(Salary) AS TotalSalary FROM Employees;
+| TotalSalary |
+| ----------- |
+| 31000       |
+
 
 -- Example 4 – AVG salary
 SELECT AVG(Salary) AS AvgSalary FROM Employees;

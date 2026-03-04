@@ -63,6 +63,13 @@ GROUP BY Department;
 SELECT Department, Salary, COUNT(*) AS NumEmployees
 FROM Employees
 GROUP BY Department, Salary;
+| Department | Salary | NumEmployees |
+| ---------- | ------ | ------------ |
+| HR         | 5000   | 2            |
+| IT         | 6000   | 1            |
+| IT         | 7000   | 1            |
+| Finance    | 8000   | 1            |
+
 
 -- Example 7 – GROUP BY with string function
 SELECT UPPER(Department) AS DeptUpper, COUNT(*) AS NumEmployees

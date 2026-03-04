@@ -61,6 +61,11 @@ SELECT Department, SUM(Salary) AS DeptSalary FROM Employees GROUP BY Department;
 
 -- Example 8 – AVG by department
 SELECT Department, AVG(Salary) AS AvgDeptSalary FROM Employees GROUP BY Department;
+| Department | AvgDeptSalary |
+| ---------- | ------------- |
+| HR         | 5000          |
+| IT         | 6500          |
+| Finance    | 8000          |
 
 
 -- Example 9 – COUNT distinct salaries

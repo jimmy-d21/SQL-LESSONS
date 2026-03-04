@@ -52,6 +52,12 @@ SELECT MAX(Salary) AS MaxSalary FROM Employees;
 
 -- Example 7 – SUM by department
 SELECT Department, SUM(Salary) AS DeptSalary FROM Employees GROUP BY Department;
+| Department | DeptSalary |
+| ---------- | ---------- |
+| HR         | 10000      |
+| IT         | 13000      |
+| Finance    | 8000       |
+
 
 -- Example 8 – AVG by department
 SELECT Department, AVG(Salary) AS AvgDeptSalary FROM Employees GROUP BY Department;

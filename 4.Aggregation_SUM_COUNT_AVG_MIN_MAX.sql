@@ -31,6 +31,10 @@ SELECT SUM(Salary) AS TotalSalary FROM Employees;
 
 -- Example 4 – AVG salary
 SELECT AVG(Salary) AS AvgSalary FROM Employees;
+| AvgSalary |
+| --------- |
+| 6200      |
+
 
 -- Example 5 – MIN salary
 SELECT MIN(Salary) AS MinSalary FROM Employees;

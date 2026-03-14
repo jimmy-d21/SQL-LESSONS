@@ -137,3 +137,11 @@ SELECT e.FirstName, d.DepartmentName
 FROM Employees e
 RIGHT JOIN Departments d
 ON e.DepartmentID = d.DepartmentID;
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| John      | HR             |
+| Jane      | IT             |
+| Alice     | IT             |
+| Bob       | Finance        |
+| NULL      | Marketing      |

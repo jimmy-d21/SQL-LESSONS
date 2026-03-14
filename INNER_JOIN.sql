@@ -70,3 +70,11 @@ ORDER BY e.FirstName;
 | Bob       | Finance        |
 | Jane      | IT             |
 | John      | HR             |
+
+
+-- INNER JOIN with COUNT
+SELECT d.DepartmentName, COUNT(*) AS Employees
+FROM Employees e
+INNER JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+GROUP BY d.DepartmentName;

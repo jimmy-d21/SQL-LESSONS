@@ -63,3 +63,10 @@ FROM Employees e
 INNER JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 ORDER BY e.FirstName;
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| Alice     | IT             |
+| Bob       | Finance        |
+| Jane      | IT             |
+| John      | HR             |

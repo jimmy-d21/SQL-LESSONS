@@ -84,3 +84,13 @@ GROUP BY d.DepartmentName;
 | HR             | 1         |
 | IT             | 2         |
 | Finance        | 1         |
+
+
+
+
+---------- LEFT JOIN ----------
+-- LEFT JOIN all employees
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+LEFT JOIN Departments d
+ON e.DepartmentID = d.DepartmentID;

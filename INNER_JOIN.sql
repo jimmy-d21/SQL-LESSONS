@@ -55,3 +55,11 @@ WHERE d.DepartmentName = 'IT';
 | --------- | -------------- |
 | Jane      | IT             |
 | Alice     | IT             |
+
+
+-- INNER JOIN with ORDER BY
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+INNER JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+ORDER BY e.FirstName;

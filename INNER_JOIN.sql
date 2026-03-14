@@ -122,3 +122,8 @@ FROM Employees e
 LEFT JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 WHERE e.Salary > 6000;
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| Alice     | IT             |
+| Eve       | NULL           |

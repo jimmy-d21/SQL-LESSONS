@@ -153,3 +153,7 @@ FROM Employees e
 RIGHT JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 WHERE e.EmployeeID IS NULL;
+
+| DepartmentName |
+| -------------- |
+| Marketing      |

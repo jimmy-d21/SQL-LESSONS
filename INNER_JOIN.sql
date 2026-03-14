@@ -36,3 +36,9 @@ FROM Employees e
 INNER JOIN Departments d
 ON e.DepartmentID = d.DepartmentID;
 
+| FirstName | DepartmentName | Salary |
+| --------- | -------------- | ------ |
+| John      | HR             | 5000   |
+| Jane      | IT             | 6000   |
+| Alice     | IT             | 7000   |
+| Bob       | Finance        | 5500   |

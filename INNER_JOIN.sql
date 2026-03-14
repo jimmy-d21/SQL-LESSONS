@@ -28,3 +28,11 @@ ON e.DepartmentID = d.DepartmentID;
 | Jane      | IT             |
 | Alice     | IT             |
 | Bob       | Finance        |
+
+
+-- INNER JOIN with Salary
+SELECT e.FirstName, d.DepartmentName, e.Salary
+FROM Employees e
+INNER JOIN Departments d
+ON e.DepartmentID = d.DepartmentID;
+

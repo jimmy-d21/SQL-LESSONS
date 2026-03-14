@@ -114,3 +114,11 @@ WHERE d.DepartmentID IS NULL;
 | FirstName |
 | --------- |
 | Eve       |
+
+
+-- LEFT JOIN with salary filter
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+LEFT JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+WHERE e.Salary > 6000;

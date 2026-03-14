@@ -15,8 +15,16 @@
 | 3            | Finance        |
 | 4            | Marketing      |
 
+
 -- Basic INNER JOIN
 SELECT e.FirstName, d.DepartmentName
 FROM Employees e
 INNER JOIN Departments d
 ON e.DepartmentID = d.DepartmentID;
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| John      | HR             |
+| Jane      | IT             |
+| Alice     | IT             |
+| Bob       | Finance        |

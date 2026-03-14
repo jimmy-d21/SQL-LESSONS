@@ -42,3 +42,11 @@ ON e.DepartmentID = d.DepartmentID;
 | Jane      | IT             | 6000   |
 | Alice     | IT             | 7000   |
 | Bob       | Finance        | 5500   |
+
+
+-- INNER JOIN with WHERE
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+INNER JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+WHERE d.DepartmentName = 'IT';

@@ -145,3 +145,11 @@ ON e.DepartmentID = d.DepartmentID;
 | Alice     | IT             |
 | Bob       | Finance        |
 | NULL      | Marketing      |
+
+
+-- Departments without employees
+SELECT d.DepartmentName
+FROM Employees e
+RIGHT JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+WHERE e.EmployeeID IS NULL;

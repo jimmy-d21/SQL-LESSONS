@@ -127,3 +127,13 @@ WHERE e.Salary > 6000;
 | --------- | -------------- |
 | Alice     | IT             |
 | Eve       | NULL           |
+
+
+
+
+---------- RIGHT JOIN ----------
+-- RIGHT JOIN all departments
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+RIGHT JOIN Departments d
+ON e.DepartmentID = d.DepartmentID;

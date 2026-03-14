@@ -78,3 +78,9 @@ FROM Employees e
 INNER JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 GROUP BY d.DepartmentName;
+
+| DepartmentName | Employees |
+| -------------- | --------- |
+| HR             | 1         |
+| IT             | 2         |
+| Finance        | 1         |

@@ -110,3 +110,7 @@ FROM Employees e
 LEFT JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 WHERE d.DepartmentID IS NULL;
+
+| FirstName |
+| --------- |
+| Eve       |

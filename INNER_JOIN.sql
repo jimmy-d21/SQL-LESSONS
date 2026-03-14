@@ -50,3 +50,8 @@ FROM Employees e
 INNER JOIN Departments d
 ON e.DepartmentID = d.DepartmentID
 WHERE d.DepartmentName = 'IT';
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| Jane      | IT             |
+| Alice     | IT             |

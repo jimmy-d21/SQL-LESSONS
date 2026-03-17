@@ -28,3 +28,9 @@ ON e.DepartmentID = d.DepartmentID;
 | Bob       | Finance        |
 | Eve       | NULL           |
 | NULL      | Marketing      |
+
+
+-- CROSS JOIN
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+CROSS JOIN Departments d;

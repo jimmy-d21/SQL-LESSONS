@@ -49,3 +49,11 @@ WHERE d.DepartmentName = 'HR';
 | Alice     | HR             |
 | Bob       | HR             |
 | Eve       | HR             |
+
+
+-- Self Join
+SELECT a.FirstName AS Employee1, b.FirstName AS Employee2
+FROM Employees a
+JOIN Employees b
+ON a.DepartmentID = b.DepartmentID
+WHERE a.EmployeeID <> b.EmployeeID;

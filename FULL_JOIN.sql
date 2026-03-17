@@ -41,3 +41,11 @@ SELECT e.FirstName, d.DepartmentName
 FROM Employees e
 CROSS JOIN Departments d
 WHERE d.DepartmentName = 'HR';
+
+| FirstName | DepartmentName |
+| --------- | -------------- |
+| John      | HR             |
+| Jane      | HR             |
+| Alice     | HR             |
+| Bob       | HR             |
+| Eve       | HR             |

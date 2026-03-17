@@ -57,3 +57,11 @@ FROM Employees a
 JOIN Employees b
 ON a.DepartmentID = b.DepartmentID
 WHERE a.EmployeeID <> b.EmployeeID;
+
+
+-- Join with alias filter
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+JOIN Departments d
+ON e.DepartmentID = d.DepartmentID
+WHERE e.Salary >= 6000;

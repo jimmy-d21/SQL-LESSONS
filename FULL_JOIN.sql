@@ -34,3 +34,10 @@ ON e.DepartmentID = d.DepartmentID;
 SELECT e.FirstName, d.DepartmentName
 FROM Employees e
 CROSS JOIN Departments d;
+
+
+-- CROSS JOIN with filter
+SELECT e.FirstName, d.DepartmentName
+FROM Employees e
+CROSS JOIN Departments d
+WHERE d.DepartmentName = 'HR';
